@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Viking.Updating.Pipeline\Viking.Updating.Pipeline.csproj" />
-    <ProjectReference Include="..\Viking.Updating\Viking.Updating.csproj" />
+    <ProjectReference Include="..\Pipeline\Viking.Updating.Pipeline\Viking.Updating.Pipeline.csproj" />
+    <ProjectReference Include="..\Updating\Viking.Updating\Viking.Updating.csproj" />
   </ItemGroup>
 
 </Project>
