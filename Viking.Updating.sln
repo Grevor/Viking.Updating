@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viking.Updating", "Updating
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viking.Updating.Tests", "Updating\Viking.Updating.Tests\Viking.Updating.Tests.csproj", "{AF780265-2064-4DFD-BC0B-9A52DCCFFA85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viking.Updating.Benchmark", "Viking.Updating.Benchmark\Viking.Updating.Benchmark.csproj", "{EE14A114-9FD6-4309-B96D-913BE3575332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{AF780265-2064-4DFD-BC0B-9A52DCCFFA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF780265-2064-4DFD-BC0B-9A52DCCFFA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF780265-2064-4DFD-BC0B-9A52DCCFFA85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE14A114-9FD6-4309-B96D-913BE3575332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE14A114-9FD6-4309-B96D-913BE3575332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE14A114-9FD6-4309-B96D-913BE3575332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE14A114-9FD6-4309-B96D-913BE3575332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{27C89996-5B46-4384-A104-752A34D3608B} = {9B2BAE02-AEF0-47C7-B5D3-0879C1560CE9}
 		{F4196FF3-1934-4705-A092-CC3532B1970C} = {4B0CEB67-389E-4C1F-B43B-ED13DA3511E9}
 		{AF780265-2064-4DFD-BC0B-9A52DCCFFA85} = {4B0CEB67-389E-4C1F-B43B-ED13DA3511E9}
+		{EE14A114-9FD6-4309-B96D-913BE3575332} = {4B0CEB67-389E-4C1F-B43B-ED13DA3511E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E4693A6-A0BE-4747-9053-DC468794B192}

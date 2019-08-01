@@ -25,7 +25,8 @@ namespace Viking.Updating.Pipeline
         {
             if(!Outputs.TryGetValue(select, out var branch))
             {
-                branch = new PassThroughPipelineStep<TOutput>($"demultiplexing step {Name} - Branch for select value {select}", this, true, false);
+                branch = new PassThroughPipelineStep<TOutput>($"Demultiplexing step {Name} - Branch for select value {select}", this, true, false);
+                Signaler.RegisterDependency(Input, branch, this);
                 Outputs.Add(select, branch);
             }
             return branch;
